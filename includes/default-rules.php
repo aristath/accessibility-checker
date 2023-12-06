@@ -265,7 +265,7 @@ return array(
 		'rule_type' => 'error',
 		'summary'   => sprintf(
 			// translators: %1$s is the code for a td tag, %2$s is the code for a th tag.
-			esc_html__( 'A Missing Table Header error means that one of your tables contains data (information contained in a %1$ tag) that does not have a corresponding header (%2$s) tag. When looking at the HTML for your form, there will be more %1$s elements in a row than %2$s elements in the table. To fix a missing table header, you need to find the section of code that has fewer %2$s elements in it than should be present for the number of rows or columns of data, and add one or more additional %2$s elements containing text that describes the data in that row or column.', 'accessibility-checker' ),
+			esc_html__( 'A Missing Table Header error means that one of your tables contains data (information contained in a %1$s tag) that does not have a corresponding header (%2$s) tag. When looking at the HTML for your form, there will be more %1$s elements in a row than %2$s elements in the table. To fix a missing table header, you need to find the section of code that has fewer %2$s elements in it than should be present for the number of rows or columns of data, and add one or more additional %2$s elements containing text that describes the data in that row or column.', 'accessibility-checker' ),
 			'<code><td></code>',
 			'<code><th></code>'
 		),
